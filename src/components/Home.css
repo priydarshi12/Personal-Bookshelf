@@ -1,0 +1,100 @@
+
+.container-home{
+    width: 100%;
+    display: flex;
+
+}
+
+.left-container-home{
+    width: 80%;
+}
+.right-container-home{
+    width: 19%;
+    display: flex;
+    justify-content: flex-start;
+}
+.left-content-home{
+    width: 75%;
+    margin: auto;
+}
+
+.heading-left-home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-results{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:5px;
+    width: 100%;
+}
+
+.book-card{
+    width: 180px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius:5px;
+    padding: 10px;
+}
+
+.book-search-input{
+    border: 2px solid black;
+    width:240px;
+    border-radius: 5px;
+    height: 22px;
+}
+.book-content{
+    margin-top: 5px;
+    display: flex;
+    align-content: top;
+    gap:5px;
+    /* height:60px; */
+    margin-bottom: 5px;
+}
+.book-name{
+    width:50%;
+    margin-top: 2px;
+}
+
+.book-title{
+    width:50%;
+    margin-top: 2px;
+}
+
+.editor-content{
+    margin-top: 5px;
+    display: flex;
+    align-content: top;
+    gap:5px;
+    height:60px;
+}
+
+.editor-name{
+    margin-top: 2px;
+}
+
+.editor-title{
+    margin-top: 2px;
+}
+
+.right-home-btn{
+    margin-top: 40px;
+    padding: 5px 15px;
+    height: 40px;
+    background-color:  #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-book-btn{
+    border: none;
+    background-color:  #4caf50;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}

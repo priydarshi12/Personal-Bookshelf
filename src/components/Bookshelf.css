@@ -1,0 +1,54 @@
+.bookshelf-container{
+    width: 100%;
+}
+
+.bookshelf-heading{
+    margin: 15px auto;
+    text-align: center;
+}
+
+.bookshelf-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.bookshelf-card{
+    width: 180px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bookshelf-book-content{
+    margin-top: 5px;
+    display: flex;
+    align-content: top;
+    gap:5px;
+    margin-bottom: 5px;
+}
+
+.bookshelf-book-title{
+    width:50%;
+    margin-top: 2px;
+}
+
+.bookshelf-book-name{
+    width:50%;
+    margin-top: 2px;
+}
+
+.bookshelf-editor-content{
+    margin-top: 5px;
+    display: flex;
+    align-content: top;
+    gap:5px;
+    height:60px;
+}
+
+.bookshelf-editor-title{
+    margin-top: 2px;
+}
